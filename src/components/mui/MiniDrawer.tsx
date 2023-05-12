@@ -178,7 +178,7 @@ export const MiniDrawer = () => {
         }
     }
 
-    const {queries, tagFilter} = useParams()
+    // const {queries, tagFilter} = useParams()
 
     return <>
         <Box sx={{ display: 'flex' }}>

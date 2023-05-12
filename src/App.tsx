@@ -5,10 +5,11 @@ import {Route, Routes} from "react-router-dom";
 
 function App() {
     return <div className={s.app}>
-                <Routes>
-                    <Route path="/" element={<MiniDrawer/>}/>
-                    {/*<Route path="/photo/:values/:mode" element={<MiniDrawer/>}/>*/}
-                </Routes>
+                <MiniDrawer/>
+                {/*<Routes>*/}
+                {/*    <Route path="/" element={<MiniDrawer/>}/>*/}
+                {/*    <Route path="/photo/:values/:mode" element={<MiniDrawer/>}/>*/}
+                {/*</Routes>*/}
             </div>
 }
 
