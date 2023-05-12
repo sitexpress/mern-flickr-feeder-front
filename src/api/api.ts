@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export const instance = axios.create({
-    baseURL: 'http://localhost:3333/',
+    // baseURL: 'http://localhost:3333/',
+    baseURL: 'REACT_APP_FEEDER_URL',
 })
 
