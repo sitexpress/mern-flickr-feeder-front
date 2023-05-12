@@ -155,7 +155,7 @@ export const MiniDrawer = () => {
             const arrValue = arrHelperFunc(value)
             arrValue && setSearchedTags(arrValue)
 
-            instance.post<ResponseType>(`/photo`, {data: {params: [value, tagMode]}})
+            instance.post<ResponseType>(`/`, {data: {params: [value, tagMode]}})
                 .then(res => {
                     console.log(res.data)
                     setItems(res.data.items)
