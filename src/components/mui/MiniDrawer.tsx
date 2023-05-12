@@ -304,9 +304,9 @@ export const MiniDrawer = () => {
                         </Grid>
 
                         <Grid container spacing={2}>
-                            <Link to={`photo/${queries}/${tagFilter}`}>
+                            {/*<Link to={`photo/${queries}/${tagFilter}`}>*/}
                                 <PhotosComponent items={items}/>
-                            </Link>
+                            {/*</Link>*/}
                         </Grid>
                 </Container>
             </Box>
