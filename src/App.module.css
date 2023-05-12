@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+}
+.container {
+  padding-top:20px;
+  /*margin-bottom: 20px;*/
+}
+
+.grid {
+  padding-top:20px;
+  margin-bottom: 20px;
+}
+
+.input_search {
+  margin-right: 10px;
+}
+
+.tags {
+  cursor:pointer;
+  color: cornflowerblue;
+}
+
