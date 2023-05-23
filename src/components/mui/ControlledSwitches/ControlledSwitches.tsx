@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Switch from '@mui/material/Switch';
 import {useEffect} from "react";
-import {TagModeType} from "./MiniDrawer";
+import {TagModeType} from '../../../App';
 
 type ControlledSwitches = {
     setTagsMode: (value:TagModeType) => void

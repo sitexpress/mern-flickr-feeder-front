@@ -1,0 +1,31 @@
+/*Info*/
+/*Default breakpoints mui*/
+
+/*xs, extra-small:0px*/
+/*sm, small:600px*/
+/*md, medium:900px*/
+/*lg, large:1200px*/
+/*xl, extra-large:1536px*/
+
+
+
+@media (min-width: 660px) {
+    .img img {
+        width: 500px;
+        min-height: auto;
+    }
+}
+
+@media (min-width: 480px) {
+    .img img {
+        width: 300px;
+        min-height: auto;
+    }
+}
+
+@media (min-width: 0px) {
+    .img img {
+        width: 150px;
+        min-height: auto;
+    }
+}

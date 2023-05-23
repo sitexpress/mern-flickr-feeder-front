@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import Grid from "@mui/material/Grid";
-import {v4} from "uuid";
-import {styled} from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
-import {TagsComponent} from "./TagsComponent";
+import Grid from '@mui/material/Grid';
+import {v4} from 'uuid';
+import {styled} from '@mui/material/styles';
+import Paper from '@mui/material/Paper';
+import {TagsComponent} from './TagsComponent';
+import m from '../media.module.css'
 
 export type  MediaType = {
     m: string
@@ -43,13 +44,15 @@ export const PhotosComponent:React.FC<TagsComponentType> = ({items}) => {
         return <Grid
             key={v4()}
             item
-            xs={8}
+            xs={12}
             sm={6}
             md={4}
             lg={3}
             gap={1}>
             <Item>
-                <img src={photo.media.m} alt="photo"/>
+                <div className={m.img}>
+                    <img src={photo.media.m} alt="photo"/>
+                </div>
                 <div>
                     <b>Title: </b>{photo.title.trim() !== '' ? photo.title : 'not found'}
                 </div>
